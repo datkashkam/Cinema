@@ -1,0 +1,23 @@
+#ella{
+  color: white;
+  .ella{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    padding: 60px 0;
+    &--init{
+      display: flex;
+      flex-direction: column;
+      &__bio{
+
+      }
+      &__names{
+        display: flex;
+        align-items: flex-start;
+        gap: 50px;
+        padding: 30px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+
+#home {
+  .home {
+    &--one {
+      background: url("../../img/chizgi.jpg") center/cover no-repeat;
+      height: 50vh;
+
+      h1 {
+        display: flex;
+        padding: 80px 0 0 50px;
+        font-size: 50px;
+        color: white;
+      }
+
+      h2 {
+        font-size: 40px;
+        color: white;
+        margin-left: 50px;
+      }
+
+      &__in {
+        display: flex;
+        margin: 50px 0 0 50px;
+
+        input {
+          width: 1100px;
+          height: 50px;
+          border-radius: 50px;
+          font-size: 20px;
+          border: none;
+          outline: none;
+        }
+
+        button {
+          padding: 15px 30px;
+          border-radius: 50px;
+          border: none;
+          outline: none;
+          background: indigo;
+          color: white;
+          font-size: 18px;
+          margin-left: -50px;
+
+          &:hover {
+            color: black;
+          }
+        }
+      }
+
+    }
+
+    &--two {
+      h4 {
+        color: white;
+        font-size: 30px;
+        display: flex;
+        margin: 80px 0 -30px 50px;
+      }
+    }
+
+
+
+
+  }
+}
+
+
+
+.buttons {
+  background: none;
+  font-size: 15px;
+  padding: 6px 19px;
+  border-radius: 50px;
+  color: white;
+  border: none;
+  margin-left: 3px;
+outline: none;
+
+  &:hover {
+    background:white ;
+    color: indigo;
+
+  }
+}

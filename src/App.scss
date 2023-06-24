@@ -1,0 +1,28 @@
+@import "src/components/Header/index";
+@import "src/components/Home/index";
+@import "src/components/Hero/index";
+@import "src/components/Footer/index";
+@import "src/components/Populari/index";
+@import "src/components/TopRated/index";
+@import "src/components/MovieCard/index";
+@import "Page/MoveDetails/index";
+@import "Page/Actors/index";
+@import "Page/Treilere/index";
+@import "Page/Ella/index";
+@import "Page/EllaDetails/index";
+
+body {
+  background: indigo;
+}
+
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

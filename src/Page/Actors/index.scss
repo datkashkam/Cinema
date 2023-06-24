@@ -1,0 +1,22 @@
+#actors{
+  .slick-prev:before {
+    content: '';
+  }
+  .slick-next:before {
+    content: '';
+  }
+  .actors{
+    margin: 90px 0;
+    &--init{
+
+      h1{
+        font-size: 18px;
+        text-align: center;
+        padding: 20px 0;
+        color: white;
+      }
+    }
+
+
+  }
+}

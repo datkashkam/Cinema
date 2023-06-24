@@ -1,0 +1,53 @@
+#header {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 30px;
+  backdrop-filter: blur(2px);
+  a{
+    text-decoration: none;
+
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+      color: white;
+    }
+    &--nav{
+      display: flex;
+      a{
+        font-size: 18px;
+        padding: 0 29px;
+        color: rgba(255, 255, 255, 0.66);
+        letter-spacing: 1px;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    &--search {
+      display: flex;
+      gap: 10px;
+      &__sear{
+        padding: 7px 0;
+        border-radius: 10px;
+        outline: none;
+        background: none;
+        border: 2px solid white;
+        color: white;
+      }
+      &__searbt {
+        padding: 7px 10px;
+        border-radius: 5px;
+        background: white;
+        border:none ;
+        font-size: 10px;
+      }
+    }
+
+    .active{
+      color:white;
+    }
+
+  }
+}
